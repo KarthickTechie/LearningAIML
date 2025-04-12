@@ -24,9 +24,9 @@ training data sets you feed to the algorithm includes the desired solution calle
 
 like classifiers which works on training data's labels and predicts the output , regression is predicts the target numeric values. the prediction happened based on attributes like mileage ,age and brand . To train the system you need many example of cars , including predictors and labels (ie. their prices)
 
-'''
+```
 Note that some regression algorithms can be used for classification as well, and vice
 versa. For example, Logistic Regression is commonly used for classification, as it can
 output a value that corresponds to the probability of belonging to a given class (e.g.,
 20% chance of being spam)
-'''
+```
