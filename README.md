@@ -29,5 +29,4 @@ Note that some regression algorithms can be used for classification as well, and
 versa. For example, Logistic Regression is commonly used for classification, as it can
 output a value that corresponds to the probability of belonging to a given class (e.g.,
 20% chance of being spam)
-
 '''
