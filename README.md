@@ -65,7 +65,7 @@ help you target your posts for each group.
 
 unsupervised learning combined with supervised learning called semisupervised. since labeling dataset is costly , you will often have unlabeled instances and few labeled instances.
 
-# 9. semisupervised learning
+# 9.semisupervised learning
 
 Most semisupervised learning algorithms are combinations of unsupervised and
 supervised algorithms. For example, deep belief networks (DBNs) are based on unsu‐
@@ -74,3 +74,20 @@ one another. RBMs are trained sequentially in an unsupervised manner, and then t
 whole system is fine-tuned using supervised learning techniques.
 
 # 10.Reinforcement learning
+
+this is a type of unsupervised learning in which the algorithm is programmed to learn from the failures and reinforce themself to avoid failures next time . example : Googles Deepmind's AlphaGo Gaming ML program
+
+# 11.Instance Based versus Modal based learning
+
+performance of the ML is measured by how the ML system predict the new unlabeled never seen before . it's known as Generalization. Having a good performance measure on the training data is good but insufficient , the true goal is to perform well on new instances.
+There are two main approaches to Generalization : Instance based learning and Model-based learning
+
+# 12. What is feature engineering?
+
+The system is only capable of learning if the training data containes most relevent feature and less irrelevant one. The critical part of the success of the machine learning project is to coming upwith good set of features to train on . This process is known as Feature Engineering.
+
+Feature selection (selecting the most useful features to train on among existing
+features)
+• Feature extraction (combining existing features to produce a more useful one—as
+we saw earlier, dimensionality reduction algorithms can help)
+• Creating new features by gathering new data
